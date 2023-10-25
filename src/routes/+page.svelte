@@ -4,10 +4,10 @@
 </script>
 
 <div class="header">
-  <img src={images.hero} alt="interwoven" class="hero"/>
+  <img src={images.hero} alt="interwoven" class="hero" loading="lazy"/>
 
   <div class="info">
-    <img src={images.logo} alt="interwoven-logo" class="logo"/>
+    <img src={images.logo} alt="interwoven-logo" class="logo" loading="lazy"/>
     <div class="about">
       <span>
         Interwoven Solutions
