@@ -8,3 +8,144 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+.header {
+    position: relative;
+}
+
+.hero {
+    width: 100%;
+}
+
+.info {
+    position: absolute;
+    top: 218px;
+    left: 137px;
+    z-index: 1;
+    width: calc(100% - 137px);
+}
+
+.about span {
+    color: #EBEBEB;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 120% */
+}
+
+.about {
+    width: 416px;
+    color: #EBEBEB;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    right: 217px;
+}
+
+.logo {
+    width: 38%;
+    height: auto;
+}
+
+.solutions {
+    width: 66.6%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 150px auto;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.leverage-container {
+    width: 100%;
+
+    background: #B8B8B8;
+}
+
+.leverage {
+    margin: auto;
+    width: 66.6%;
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.header-title {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.paragraph {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.points {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.footer {
+    background: #010322;
+    padding: 25px 46px;
+    width: calc(100% - 92px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .logo {
+    width: 181px;
+    height: auto;
+}
+
+.copyright {
+    color: #979797;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -22,6 +22,7 @@ const config = {
 		css: {
 			devSourcemap: true
 		}
-	}
+	},
+	ssr: true
 };
 export default config;
