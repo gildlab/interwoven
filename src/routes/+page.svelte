@@ -77,6 +77,11 @@
   </div>
 </div>
 
+<div class="footer">
+  <img src={images.logo} alt="interwoven-logo" class="logo"/>
+  <span class="copyright">Copyright © {new Date().getFullYear()} Interwoven Solutions. All Rights Reserved.</span>
+</div>
+
 <style>
 
 
@@ -197,4 +202,26 @@
         margin-left: 30px;
     }
 
+    .footer {
+        background: #010322;
+        padding: 25px 46px;
+        width: calc(100% - 92px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer .logo {
+        width: 181px;
+        height: auto;
+    }
+
+    .copyright {
+        color: #979797;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
 </style>
