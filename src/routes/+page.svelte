@@ -20,7 +20,7 @@
   <div class="section">
     <div class="title">Blockchain solutions</div>
     <div class="text">Build scalable ledger based solutions that intersect supply chain and finance including supply
-      chain finance and trade finance solutions
+      chain finance and trade finance solutions.
     </div>
   </div>
   <div class="section">
@@ -37,12 +37,11 @@
   <div class="section">
     <div class="title">Advisory and Blockchain containerisation for group</div>
     <div class="text">Build an overarching blockchain capability within the parent company to coordinate and add value
-      across the organization and subsidiaries
+      across the organization and subsidiaries.
     </div>
   </div>
 
 </div>
-.
 <div class="leverage-container">
 
   <div class="leverage">
