@@ -10,7 +10,7 @@
     <img src={images.logo} alt="interwoven-logo" class="logo"/>
     <div class="about">
       <span>
-        Interwoven solutions
+        Interwoven Solutions
       </span>
       is a technology company specializing in ledger, blockchain and distributed supply chain solutions
     </div>
