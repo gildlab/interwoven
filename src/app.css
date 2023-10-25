@@ -19,6 +19,11 @@ body {
     width: 100%;
 }
 
+.hero-mobile {
+    display: none;
+    width: 100%;
+}
+
 .info {
     position: absolute;
     top: 218px;
@@ -87,7 +92,6 @@ body {
 
 .leverage-container {
     width: 100%;
-
     background: #B8B8B8;
 }
 
@@ -149,4 +153,49 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+@media only screen and (max-width: 428px) {
+    .hero {
+        display: none;
+    }
+
+    .hero-mobile {
+        display: block;
+    }
+
+    .info {
+        top: 221px;
+        width: calc(100% - 98px);
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .about {
+        display: none;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    .footer {
+        padding: 68px 48px 20px 48px;
+        flex-direction: column;
+        align-items: flex-start;
+        width: calc(100% - 96px);
+        gap: 51px;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
 }

@@ -5,6 +5,7 @@
 
 <div class="header">
   <img src={images.hero} alt="interwoven" class="hero" loading="lazy"/>
+  <img src={images.hero_mobile} alt="interwoven" class="hero-mobile" loading="lazy"/>
 
   <div class="info">
     <img src={images.logo} alt="interwoven-logo" class="logo" loading="lazy"/>
