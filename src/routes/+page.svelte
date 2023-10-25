@@ -16,7 +16,32 @@
     </div>
   </div>
 </div>
-<div>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</div>
+<div class="solutions">
+  <div class="section">
+    <div class="title">Blockchain solutions</div>
+    <div class="text">Build scalable ledger based solutions that intersect supply chain and finance including supply
+      chain finance and trade finance solutions
+    </div>
+  </div>
+  <div class="section">
+    <div class="title">p2p networking & edge computing</div>
+    <div class="text">Build networking technology into supply chain scanner, IOT and other hardware devices to creating
+      distributed hardware networks.
+    </div>
+  </div>
+  <div class="section">
+    <div class="title">Decentralized technology strategies</div>
+    <div class="text">Build a group wide blockchain technology strategy.
+    </div>
+  </div>
+  <div class="section">
+    <div class="title">Advisory and Blockchain containerisation for group</div>
+    <div class="text">Build an overarching blockchain capability within the parent company to coordinate and add value
+      across the organization and subsidiaries. 
+    </div>
+  </div>
+
+</div>
 
 
 <style>
@@ -62,6 +87,38 @@
     .logo {
         width: 38%;
         height: auto;
-
     }
+
+    .solutions {
+        width: 66.6%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        margin: 150px auto;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .title {
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .text {
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
 </style>
