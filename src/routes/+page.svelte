@@ -37,12 +37,45 @@
   <div class="section">
     <div class="title">Advisory and Blockchain containerisation for group</div>
     <div class="text">Build an overarching blockchain capability within the parent company to coordinate and add value
-      across the organization and subsidiaries. 
+      across the organization and subsidiaries
     </div>
   </div>
 
 </div>
+.
+<div class="leverage-container">
 
+  <div class="leverage">
+    <div class="header-title">
+      Leverage value across the portfolio
+    </div>
+    <div class="paragraph">
+      To align technology deployment and implementation to avoid mass fragmentation of approach and solutions and
+      leverage value created across the portfolio:
+    </div>
+    <ul class="points">
+      <li>Blockchain network strategy by portfolio company and parent company</li>
+      <li>Identify base contracts that cover scope of parent co and subsidiary activity</li>
+      <li> Identify range of calculations required to apply business logic to these contracts to make them fit for
+        purpose
+      </li>
+    </ul>
+
+    <div class="paragraph">
+      Spin up a customised environment for the customer and subsidiaries to create, share and deploy the onchain
+      business logic in a single environment.
+    </div>
+
+    <ul class="points">
+      <li>Underlying set of core contracts across portfolio</li>
+      <li>Deployment environment for contracts and expressions</li>
+      <li>Custom wordpacks or expressions to extend business use</li>
+      <li>Deployment chains maintaining integrity across chains</li>
+      <li>Support for QA of expressions Integration with specific applications</li>
+      <li>Decentralized infrastructure and hosting</li>
+    </ul>
+  </div>
+</div>
 
 <style>
 
@@ -119,6 +152,49 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+    }
+
+    .leverage-container {
+        width: 100%;
+
+        background: #B8B8B8;
+    }
+
+    .leverage {
+        margin: auto;
+        width: 66.6%;
+        padding: 150px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .header-title {
+        color: #000;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .paragraph {
+        color: #000;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .points {
+        color: #000;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 30px;
     }
 
 </style>
